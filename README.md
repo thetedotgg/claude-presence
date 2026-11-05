@@ -5,10 +5,10 @@
 **One Discord Rich Presence card for *all* your Claude Code sessions — live, on macOS.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![Latest release](https://img.shields.io/github/v/release/jaymadeapp/claude-presence?sort=semver)](https://github.com/jaymadeapp/claude-presence/releases)
-[![Homebrew](https://img.shields.io/badge/Homebrew-jaymadeapp%2Ftap-orange)](https://github.com/jaymadeapp/homebrew-tap)
+[![Latest release](https://img.shields.io/github/v/release/thetedotgg/claude-presence?sort=semver)](https://github.com/thetedotgg/claude-presence/releases)
+[![Homebrew](https://img.shields.io/badge/Homebrew-thetedotgg%2Ftap-orange)](https://github.com/thetedotgg/homebrew-tap)
 [![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey)](#requirements)
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ec4899)](https://github.com/sponsors/jaymadeapp)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ec4899)](https://github.com/sponsors/thetedotgg)
 
 <br>
 
@@ -30,7 +30,7 @@ honest Discord card — project, model, agent count, tokens, context %, live tim
 ## Quick start
 
 ```sh
-brew install jaymadeapp/tap/claude-presence   # prebuilt binary, no Rust toolchain
+brew install thetedotgg/tap/claude-presence   # prebuilt binary, no Rust toolchain
 claude-presence install                       # wires launchd + statusLine + hooks, then starts
 ```
 
@@ -84,7 +84,7 @@ Set up claude-presence (a Discord Rich Presence for Claude Code) on my Mac:
 1. First ask me these two questions and WAIT for my answers:
    - "Show your project name on the Discord card, or keep it hidden?"
    - "Show the command you're currently running, or keep it hidden?"
-2. Run: brew install jaymadeapp/tap/claude-presence
+2. Run: brew install thetedotgg/tap/claude-presence
 3. Run `claude-presence install` with -y (so it doesn't prompt again) and the
    flags matching my answers:
    - project: shown -> --show-project, hidden -> --hide-project
@@ -234,7 +234,7 @@ running or no Claude Code session is active — both show as `WARN`, not errors.
 <div align="center">
 
 **Free and MIT-licensed, and it'll stay that way.** If it earns a spot on your Discord
-profile, you can [sponsor **@jaymadeapp**](https://github.com/sponsors/jaymadeapp) —
+profile, you can [sponsor **@thetedotgg**](https://github.com/sponsors/thetedotgg) —
 optional, and stars + bug reports help just as much.
 
 Built by [jaymade](https://jaymade.app) · MIT — see [LICENSE](./LICENSE)
